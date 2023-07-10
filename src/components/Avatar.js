@@ -14,8 +14,8 @@ function Avatar({ body, hair, eyes, eyebrows, noses, mouth, hats, glasses, earri
             <img src={`./character/accessories/earrings/${earrings + 1}.png`} alt="" width="260" style={{ zIndex: '2', position: "absolute", left: 0, top: 0 }}></img>
             <img src={`./character/accessories/neckwear/${neckwear + 1}.png`} alt="" width="260" style={{ zIndex: '2', position: "absolute", left: 0, top: 0 }}></img>
             <img src={`./character/clothes/layer_1/${clothing1 + 1}.png`} alt="" width="260" style={{ zIndex: '3', position: "absolute", left: 0, top: 0 }}></img>
-            <img src={`./character/clothes/layer_2${clothing2 + 1}.png`} alt="" width="260" style={{ zIndex: '4', position: "absolute", left: 0, top: 0 }}></img>
-            <img src={`./character/clothes/layer_3${clothing3 + 1}.png`} alt="" width="260" style={{ zIndex: '5', position: "absolute", left: 0, top: 0 }}></img>
+            <img src={`./character/clothes/layer_2/${clothing2 + 1}.png`} alt="" width="260" style={{ zIndex: '4', position: "absolute", left: 0, top: 0 }}></img>
+            <img src={`./character/clothes/layer_3/${clothing3 + 1}.png`} alt="" width="260" style={{ zIndex: '5', position: "absolute", left: 0, top: 0 }}></img>
         </div >
     )
 }
